@@ -22,7 +22,7 @@ def main():
         if len(uploaded_files) != 2:
             st.warning("Please upload exactly two PDF files.")
         else:
-            audit_pdf = "audit_output.pdf"
+            audit_pdf = "Retail-Store-Mystery-shopper-checklist-template.pdf"
             st.success("Audit form filled successfully!")
             st.download_button(label="Download Filled Audit Form", data=audit_pdf, file_name=audit_pdf, mime="application/pdf")
 
